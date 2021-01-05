@@ -1,0 +1,40 @@
+.SegmentedControlFilled {
+  /* Position */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+
+  overflow: hidden;
+
+  height: 2rem;
+  border: 1px solid var(--blue);
+  background-color: white;
+  border-radius: 5px;
+}
+
+.SegmentedControlFilled__Tab {
+  /* posiiton */
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* styles */
+  background-color: white;
+  color: var(--blue);
+  transition: all 0.2s ease-out;
+  height: 100%;
+
+  /* misc */
+  cursor: default;
+}
+.SegmentedControlFilled__Tab:not(:last-child) {
+  border-right: 1px solid var(--blue);
+}
+
+.SegmentedControlFilled__Tab--Selected {
+  color: white;
+  background-color: var(--blue);
+}

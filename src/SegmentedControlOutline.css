@@ -1,0 +1,42 @@
+.SegmentedControlOutline {
+  /* Position */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+
+  overflow: hidden;
+  padding: 1px;
+
+  height: 2rem;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.SegmentedControlOutline__Tab {
+  /* posiiton */
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* styles */
+  background-color: white;
+  border: 1px solid transparent;
+  color: rgb(54, 54, 54);
+  border-radius: 20px;
+  transition: all 0.2s ease-out;
+  height: 100%;
+
+  /* misc */
+  cursor: default;
+}
+.SegmentedControlOutline__Tab:not(:last-child) {
+  margin-right: 1px;
+}
+
+.SegmentedControlOutline__Tab--Selected {
+  color: var(--blue);
+  border-color: var(--blue);
+}

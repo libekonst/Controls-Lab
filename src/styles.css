@@ -1,0 +1,10 @@
+:root {
+  --blue: #1374cf;
+  --opacity-blue: #a9d5ffb4;
+  --gray: #efeff0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}

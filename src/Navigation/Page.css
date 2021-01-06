@@ -1,0 +1,34 @@
+.Header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.HeaderBack {
+  color: rgb(51, 51, 51);
+  font-size: 0.9rem;
+}
+
+.HeaderBack:active {
+  transform: scale(0.97);
+}
+.HeaderBack > * {
+  text-decoration: none;
+  color: inherit;
+}
+
+.HeaderBack__Link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+}
+
+.HeaderBack__Link__Decoration {
+  font-size: 1.4rem;
+  margin-right: 3px;
+}

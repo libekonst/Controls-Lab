@@ -44,7 +44,7 @@
   justify-content: center;
   align-items: center;
   cursor: default;
-  color: rgb(78, 78, 78);
+  color: rgb(120, 120, 129);
   transition: color 0.3s linear;
 }
 .SegmentedControl__TabsRow__Tab--Outlined {
@@ -53,7 +53,7 @@
   justify-content: center;
   align-items: center;
   cursor: default;
-  color: rgb(78, 78, 78);
+  color: rgb(120, 120, 129);
   transition: color 0.3s linear;
 }
 .SegmentedControl__TabsRow__Tab--Selected {

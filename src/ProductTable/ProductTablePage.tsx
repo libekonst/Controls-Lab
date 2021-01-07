@@ -1,6 +1,8 @@
 import React from "react";
 import { ProductTable } from "./ProductTable";
 import { ProductTableFilledCovers } from "./ProductTableFilledCovers";
+import { ProductTableInvalidatedPrice } from "./ProductTableInvalidatedPrice";
+import { ProductTableLoadingPrice } from "./ProductTableLoadingPrice";
 
 export function ProductTablePage() {
   return (
@@ -12,6 +14,14 @@ export function ProductTablePage() {
       <br />
       <p>Filled covers, no icon price button</p>
       <ProductTableFilledCovers />
+      <br />
+      <br />
+      <p>Invalidated price</p>
+      <ProductTableInvalidatedPrice />
+      <br />
+      <br />
+      <p>Loading price</p>
+      <ProductTableLoadingPrice />
       <br />
       <br />
       {/* <SegmentedControl flavor="outlined" />

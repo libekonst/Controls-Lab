@@ -1,0 +1,26 @@
+.ProductTable_Column_PriceButton--Invalidated {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  border-radius: 3px;
+  padding: 8px 15px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  width: max-content;
+  cursor: default;
+  opacity: 0.4;
+}
+
+.ProductTable_Column_PriceButton_Icon--Invalidated {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+  opacity: 0;
+  transform: scale(0.5);
+  transform-origin: center;
+  transition: all 0.1s ease-out;
+  color: #0f5b99;
+  opacity: 0;
+}

@@ -43,24 +43,24 @@
   align-items: flex-start;
 }
 .ProductTable_Column_Price {
-  flex:1;
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .ProductTable_Column_PriceButton {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 
-  border-radius: 3px;
+  border-radius: 2px;
   padding: 8px 15px;
   font-size: 1.3rem;
   cursor: pointer;
-  width: max-content;
+  width: 7rem;
 
   border: 1px solid transparent;
-  transition: all 0.1s ease-out;
+  transition: background-color 0.1s ease-out;
 }
 
 .ProductTable_Column_PriceButton:active {
@@ -68,16 +68,16 @@
 }
 
 .ProductTable__Row:hover .ProductTable_Column_PriceButton:hover {
-  /* border-color: rgb(224 224 224); */
-  /* text-decoration: underline; */
-  background-color: #b7b7b726;
+  /* border-color: #dedede; */
+  background-color: white;
+  box-shadow: 0 0 2px #ababab;
 }
 
 .ProductTable_Column_PriceButton_Icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 12px;
+  /* margin-right: 12px; */
   opacity: 0;
   transform: scale(0.5);
   transform-origin: center;

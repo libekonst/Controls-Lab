@@ -1,0 +1,12 @@
+.ShowCase {
+  display: flex;
+  flex-direction: row;
+}
+
+.FiltersPane {
+  display: flex;
+  flex-direction: column;
+  width: 6000rem;
+  height: 100%;
+  /* flex-basis: content; */
+}

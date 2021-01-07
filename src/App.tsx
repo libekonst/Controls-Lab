@@ -6,6 +6,7 @@ import { Routes } from "./Navigation/routes";
 import { Page } from "./Navigation/Page";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { ProductTablePage } from "./ProductTable/ProductTablePage";
+import { ShowCase } from "./showcase/ShowCase";
 
 export default function App() {
   return (
@@ -27,6 +28,12 @@ export default function App() {
           <Route path={Routes.MODALS}>
             <Page>
               <SegmentedControlDemo />
+            </Page>
+          </Route>
+
+          <Route path={Routes.SHOWCASE}>
+            <Page>
+              <ShowCase />
             </Page>
           </Route>
 
@@ -52,6 +59,9 @@ function Home() {
       </div>
       <div>
         <ButtonLink to={Routes.MODALS}>Modals</ButtonLink>
+      </div>
+      <div>
+        <ButtonLink to={Routes.SHOWCASE}>ShowCase</ButtonLink>
       </div>
     </nav>
   );

@@ -1,7 +1,7 @@
+import React from "react";
 import "./ProductTable.css";
 import "./ProductTableFilledCovers.css";
 import { PlusIcon } from "./PlusIcon";
-import { PlusIconCircle } from "./PlusIconCircle";
 
 export function ProductTableFilledCovers() {
   const handleClick = () => alert("clicked");

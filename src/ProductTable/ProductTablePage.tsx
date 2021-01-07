@@ -10,7 +10,7 @@ export function ProductTablePage() {
       <ProductTable />
       <br />
       <br />
-      <p>Filled covers</p>
+      <p>Filled covers, no icon price button</p>
       <ProductTableFilledCovers />
       <br />
       <br />

@@ -1,6 +1,7 @@
 import React from "react";
+import { CartPlusFillIcon } from "./CartPlusFillIcon";
+import { CartPlusIcon } from "./CartPlusIcon";
 import { PlusIcon } from "./PlusIcon";
-import { PlusIconCircle } from "./PlusIconCircle";
 import "./ProductTable.css";
 
 export function ProductTable() {
@@ -33,7 +34,14 @@ export function ProductTable() {
             See Details
           </div>
         </div>
-        <div className="ProductTable_Column_PriceButton">127,09 €</div>
+        <div className="ProductTable_Column_Price">
+          <div className="ProductTable_Column_PriceButton">
+            <div className="ProductTable_Column_PriceButton_Icon">
+              <CartPlusFillIcon />
+            </div>
+            127,09 €
+          </div>
+        </div>
       </div>
 
       <div className="ProductTable__Row">
@@ -49,7 +57,14 @@ export function ProductTable() {
             See Details
           </div>
         </div>
-        <div className="ProductTable_Column_PriceButton">127,09 €</div>
+        <div className="ProductTable_Column_Price">
+          <div className="ProductTable_Column_PriceButton">
+            <div className="ProductTable_Column_PriceButton_Icon">
+              <CartPlusFillIcon />
+            </div>
+            127,09 €
+          </div>
+        </div>
       </div>
 
       <div className="ProductTable__Row">
@@ -69,7 +84,14 @@ export function ProductTable() {
             See Details
           </div>
         </div>
-        <div className="ProductTable_Column_PriceButton">127,09 €</div>
+        <div className="ProductTable_Column_Price">
+          <div className="ProductTable_Column_PriceButton">
+            <div className="ProductTable_Column_PriceButton_Icon">
+              <CartPlusFillIcon />
+            </div>
+            127,09 €
+          </div>
+        </div>
       </div>
 
       <div className="ProductTable__Row">
@@ -91,7 +113,14 @@ export function ProductTable() {
             See Details
           </div>
         </div>
-        <div className="ProductTable_Column_PriceButton">127,09 €</div>
+        <div className="ProductTable_Column_Price">
+          <div className="ProductTable_Column_PriceButton">
+            <div className="ProductTable_Column_PriceButton_Icon">
+              <CartPlusFillIcon />
+            </div>
+            127,09 €
+          </div>
+        </div>
       </div>
     </div>
   );

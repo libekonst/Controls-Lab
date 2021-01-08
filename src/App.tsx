@@ -7,6 +7,7 @@ import { Page } from "./Navigation/Page";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { ProductTablePage } from "./ProductTable/ProductTablePage";
 import { ShowCase } from "./showcase/ShowCase";
+import { ProductPillPage } from "./ProductPill/ProductPillPage";
 
 export default function App() {
   return (
@@ -37,6 +38,12 @@ export default function App() {
             </Page>
           </Route>
 
+          <Route path={Routes.PILL}>
+            <Page>
+              <ProductPillPage />
+            </Page>
+          </Route>
+
           <Route path={Routes.HOME}>
             <Home />
           </Route>
@@ -62,6 +69,9 @@ function Home() {
       </div>
       <div>
         <ButtonLink to={Routes.SHOWCASE}>ShowCase</ButtonLink>
+      </div>
+      <div>
+        <ButtonLink to={Routes.PILL}>Pills</ButtonLink>
       </div>
     </nav>
   );

@@ -1,7 +1,7 @@
 import React from "react";
-import { CartPlusFillIcon } from "./CartPlusFillIcon";
-import { CartPlusIcon } from "./CartPlusIcon";
-import { PlusIcon } from "./PlusIcon";
+import { CartPlusFillIcon } from "../Icons/CartPlusFillIcon";
+import { CartPlusIcon } from "../Icons/CartPlusIcon";
+import { PlusIcon } from "../Icons/PlusIcon";
 import "./ProductTable.css";
 import "./ProductTableInvalidatedPrice.css";
 

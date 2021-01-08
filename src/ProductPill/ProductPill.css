@@ -1,0 +1,37 @@
+.ProductPillRoot {
+  padding: 6px 12px;
+  border-radius: 3px;
+  color: #3d85c6;
+  background-color: #e0f1fb;
+  width: fit-content;
+
+  /* Flex */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-right: 10px;
+}
+
+.ProductPill__Icon {
+  margin-right: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ProductPill--A {
+  background-color: #1976d2;
+  color: white;
+}
+.ProductPill--C {
+  background-color: #e0e0e0;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.ProductPill--B {
+  background-color: transparent;
+  color: #1976d2;
+  border: 1px solid #1976d2;
+}

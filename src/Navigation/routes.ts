@@ -4,4 +4,5 @@ export enum Routes {
   PRODUCT_TABLE = "/product-table",
   MODALS = "/modals",
   SHOWCASE = "/showcase",
+  PILL = "/pill",
 }

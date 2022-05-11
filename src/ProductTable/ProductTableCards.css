@@ -1,0 +1,35 @@
+.Table {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.ProductTable__Card {
+  /* Layout */
+  display: grid;
+  grid-template-columns: 10rem 12rem auto auto auto 12rem;
+  column-gap: 1rem;
+  align-items: center;
+
+  /* Styles */
+  background-color: white;
+  /* height: 8rem; */
+  /* max-height: 8rem; */
+  padding: 28px 20px 20px;
+  width: 100%;
+  border-radius: 16px;
+  background-color: #f8f8f8;
+
+  /* transition: background-color 0.1s linear; */
+}
+
+.ProductTable__Card:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.ProductTable_Column_Max {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

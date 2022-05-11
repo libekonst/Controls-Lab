@@ -1,5 +1,6 @@
 import React from "react";
 import { ProductTable } from "./ProductTable";
+import { ProductTableCards } from "./ProductTableCards";
 import { ProductTableFilledCovers } from "./ProductTableFilledCovers";
 import { ProductTableInvalidatedPrice } from "./ProductTableInvalidatedPrice";
 import { ProductTableLoadingPrice } from "./ProductTableLoadingPrice";
@@ -8,6 +9,11 @@ export function ProductTablePage() {
   return (
     <div>
       <h2>Product Table</h2>
+
+      <p>Cards</p>
+      <ProductTableCards />
+      <br />
+      <br />
       <p>Default</p>
       <ProductTable />
       <br />
